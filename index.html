@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Le jardin pour tous</title>
+</head>
+<body>
+    <img src="/assets/mpt_devanture_jardin.jpg" alt="Panneau du jardin pour tous" class="background">
+    <header>
+        <h1>Le Jardin Pour Tous</h1>
+    </header>
+    <main>
+        <form action="">
+            <div class="activities">
+                <p>Quelles sont les raisons de votre venue au jardin ?</p>
+                <input type="checkbox" id="gardening" name="choice" value="jardiner">
+                <label for="gardening">Jardiner (semer, planter, récolter)</label>
+                <br>
+                <input type="checkbox" id="compost" name="choice" value="composter">
+                <label for="compost">Composter</label>
+                <br>
+                <input type="checkbox" id="water" name="choice" value="arroser">
+                <label for="water">Arroser</label>
+                <br>
+                <input type="checkbox" id="make" name="choice" value="construire">
+                <label for="make">Construire / Fabriquer (chantiers participatifs, ateliers)</label>
+                <br>
+                <input type="checkbox" id="rest" name="choice" value="détendre">
+                <label for="rest">Jouer / Se détendre (jeux en bois, bronzer, pique-niquer)</label>
+                <br>
+                <input type="checkbox" id="meet" name="choice" value="rencontrer">
+                <label for="meet">Se rencontrer (barbecue, festivités)</label>
+                <br>
+                <input type="checkbox" id="animation" name="choice" value="animation">
+                <label for="animation">Animation Maison Pour Tous</label>
+                <br>
+            </div>
+            <div class="ages">
+                <p>Veuillez indiquer le nombre de personnes participantes par tranche d'âge :</p>              
+                <input type="number" placeholder="0" id="first">
+                <label for="first">- de 6 ans</label>
+                <br>
+                <input type="number" placeholder="0" id="second">
+                <label for="second">7 à 12 ans</label>
+                <br>        
+                <input type="number" placeholder="0" id="third">
+                <label for="third">13 à 17 ans</label>
+                <br>      
+                <input type="number" placeholder="0" id="four">
+                <label for="four">18 à 25 ans</label>
+                <br>               
+                <input type="number" placeholder="0" id="five">
+                <label for="five">26 à 59 ans</label>
+                <br>       
+                <input type="number" placeholder="0" id="six">
+                <label for="six">60 ans et +</label>
+                <br>
+            </div>
+            <button type="submit" id="btn">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        <div class="logos">
+            <img src="./assets/logo-caf-nord.jpg" alt="logo de la caf du Nord" height="40px">
+            <img src="./assets/maison-pour-tous.png" alt="logo de la Maison pour tous de La Gorgue" height="40px">
+            <img src="./assets/logo-partenaire-lagorgue-350x281.png" alt="logo de la ville La Gorgue" height="40px">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
