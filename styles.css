@@ -89,7 +89,7 @@ button:hover {
     cursor: pointer;
 }
 
-.transform {
+button:active {
     transform: scale(0.9);
 }
 
@@ -100,8 +100,13 @@ button:hover {
     font-size: 1.5em;
 }
 
+@media (max-height: 580px) {
+    .background {
+        left: 0;
+    }
+}
 
-@media (min-width: 780px) {
+@media (min-width: 760px) {
     .background {
         left: 0;
     }

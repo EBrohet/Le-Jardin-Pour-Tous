@@ -12,7 +12,7 @@
         <h1>Le Jardin Pour Tous</h1>
     </header>
     <main>
-        <form action="">
+        <form id="form" action="">
             <div class="activities">
                 <p>Quelles sont les raisons de votre venue au jardin ?</p>
                 <input type="checkbox" id="gardening" name="choice" value="jardiner">
@@ -39,22 +39,22 @@
             </div>
             <div class="ages">
                 <p>Veuillez indiquer le nombre de personnes participantes par tranche d'âge :</p>              
-                <input type="number" placeholder="0" id="first">
+                <input type="number" placeholder="0" id="first" name="age1" min="0">
                 <label for="first">- de 6 ans</label>
                 <br>
-                <input type="number" placeholder="0" id="second">
+                <input type="number" placeholder="0" id="second" name="age2" min="0">
                 <label for="second">7 à 12 ans</label>
                 <br>        
-                <input type="number" placeholder="0" id="third">
+                <input type="number" placeholder="0" id="third" name="age3" min="0">
                 <label for="third">13 à 17 ans</label>
                 <br>      
-                <input type="number" placeholder="0" id="four">
+                <input type="number" placeholder="0" id="four" name="age4" min="0">
                 <label for="four">18 à 25 ans</label>
                 <br>               
-                <input type="number" placeholder="0" id="five">
+                <input type="number" placeholder="0" id="five" name="age5" min="0">
                 <label for="five">26 à 59 ans</label>
                 <br>       
-                <input type="number" placeholder="0" id="six">
+                <input type="number" placeholder="0" id="six" name="age6" min="0">
                 <label for="six">60 ans et +</label>
                 <br>
             </div>
